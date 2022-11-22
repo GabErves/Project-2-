@@ -1,167 +1,175 @@
 .hero{
-    background-image: url(../images/womanjewels.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(../images/womanjewels.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
 
 
 
 }
 .min-vh-75{
-   height: 500px;
-    
+ height: 500px;
+  
 }
 .bg{
-    background-color: none;
-    float: left;
-    position:absolute;
-    left:-1.1px; 
-   height: 400px;
-   width: 600px;
-   font-family: 'Cormorant Garamond', serif;
-    
+  background-color: none;
+  float: left;
+  position:absolute;
+  left:-1.1px; 
+ height: 400px;
+ width: 600px;
+ font-family: 'Cormorant Garamond', serif;
+  
 }
 .bg-nav{
-   background-color: #967969	;
+ background-color: #967969	;
 
 }
 .carousel {
-    width:100%;
-    height:600px;
-    margin: auto;
-    border-radius: 0px 0px 0px 0px;
-    overflow: hidden;   
-  }
+  width:100%;
+  height:600px;
+  margin: auto;
+  border-radius: 0px 0px 0px 0px;
+  overflow: hidden;   
+}
 
-  .navbar{
-    font-family: 'Cormorant Garamond', serif;
-    
-  }
+.navbar{
+  font-family: 'Cormorant Garamond', serif;
+  
+}
 
 .font{
-    font-family: 'Cormorant Garamond', serif !important;
-    
-  }
+  font-family: 'Cormorant Garamond', serif !important;
+  
+}
 
-  .extend{
-    width: 100%;
-    border-radius: 55px 55px 55px 55px;
-    overflow: hidden;   
-    height: 60px;
-    top: 50%;
-    
-  }
-  .padding{
-    margin-top: 20px;
-  }
-  .border{
-    border: none;
-  }
-  .image{
-    height: 500px;
-  }
-  img{
-    width: 100%;
-    margin-top: 20px;
+.extend{
+  width: 100%;
+  border-radius: 55px 55px 55px 55px;
+  overflow: hidden;   
+  height: 60px;
+  top: 50%;
+  
+}
+.padding{
+  margin-top: 20px;
+}
+.border{
+  border: none;
+}
+.image{
+  height: 500px;
+}
+img{
+  width: 100%;
+  margin-top: 20px;
 
-  }
-  h5{
-    font-family: 'Cormorant Garamond', serif;
-  }
+}
+h5{
+  font-family: 'Cormorant Garamond', serif;
+}
 
-  .title{
-    text-align: center;
-    font-family: 'Cormorant Garamond', serif;
+.title{
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
 
-  }
+}
 .end{
-    position: absolute;
-    top: 50%;
-    right: 30px;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-    z-index: 1;
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 1;
 }
 .pad{
-    margin-right: 120px;
+  margin-right: 120px;
 }
 .btn{
-    color:white !important;
-    text-decoration: none;
+  color:white !important;
+  text-decoration: none;
 
 }
 .lg{
-    font-size: 25px;
-    
+  font-size: 25px;
+  
 }
 .about{
-    position: absolute;
-    top: 50%;
-    right: 70px;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-    z-index: 1;
+  position: absolute;
+  top: 50%;
+  right: 70px;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 1;
 
 }
 .card-img-top{
-    width:100%;
-    height:auto;
+  width:100%;
+  height:auto;
+}
+/* @media screen and (max-width:768px) {
+  img {
+      width:100%;
   }
-  /* @media screen and (max-width:768px) {
-    img {
-        width:100%;
-    }
 }
 @media screen and (max-width:768px){
-    .row{
-        flex-direction: column;
-        padding-left: 40px;
-        align-items: center !important;
-    }
-  } */
-  .button{
-    color:white !important;
-    text-decoration: none;
+  .row{
+      flex-direction: column;
+      padding-left: 40px;
+      align-items: center !important;
+  }
+} */
+.button{
+  color:white !important;
+  text-decoration: none;
 
 
+}
+.back-img{
+  /* background-image: url(https://media.istockphoto.com/id/1179215846/vector/multicolored-pastel-abstract-background-light-gradient-diffused-white-purple-pink-turquoise.jpg?s=612x612&w=0&k=20&c=e_G8Pm-M2ZPg156CSonD7nJHtiRZcm-YGmI6KE7IeE4=); */
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.cols{
+  z-index: 50;
+  margin-left: 80px;
+}
+.card-img-top{
+  width:100%;
+  height:auto;
+}
+@media screen and (max-width:768px) {
+  img {
+      width:100%;
   }
-  .back-img{
-    background-image: url(https://media.istockphoto.com/id/1179215846/vector/multicolored-pastel-abstract-background-light-gradient-diffused-white-purple-pink-turquoise.jpg?s=612x612&w=0&k=20&c=e_G8Pm-M2ZPg156CSonD7nJHtiRZcm-YGmI6KE7IeE4=);
-    background-repeat: no-repeat;
-    background-size: cover;
-   
+  .container {
+      max-width:100%;
+      width: 100%;
   }
-  .cols{
-    z-index: 50;
-    margin-left: 80px;
+  .col-md-3{
+      width:100%;
+      float:left;
+      margin:0;
   }
-  .card-img-top{
-    width:100%;
-    height:auto;
+  .card-title{
+      font-size: 20px;
+      width:100%;
   }
-  @media screen and (max-width:768px) {
-    img {
-        width:100%;
-    }
-    .container {
-        max-width:100%;
-        width: 100%;
-    }
-    .col-md-3{
-        width:100%;
-        float:left;
-        margin:0;
-    }
-    }
+  }
 
-    .card {
-        display:inline-block;
-    }
+  .card {
+      display:inline-block;
+  }
 
-    .bttn{
-        margin-top: 20px;
-    }
-    .padd{
-        margin-top: 20px;
-    }
+  .bttn{
+      margin-top: 20px;
+  }
+  .padd{
+      margin-top: 20px;
+  }
+
+  p{
+      color:black;
+  }
